@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.event {
+    width: 80%;
+    height: 60vh;
+    display: block;
+    margin: 0px auto;
+    background-color: green;
+}
+
+.event2 {
+    width: 80%;
+    height: 60vh;
+    display: block;
+    margin: 0px auto;
+    background-color: orange;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    padding: 20px 40px;
+    border: 0px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
