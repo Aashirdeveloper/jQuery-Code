@@ -1,0 +1,72 @@
+h1 {
+    display: block;
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+}
+
+.slide {
+    width: 70%;
+    height: 60vh;
+    background-color: teal;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 7px;
+}
+
+.animationback {
+    background-color: darkblue;
+    width: 70%;
+    height: 60vh;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 7px;
+}
+
+.animation {
+    height: 150px;
+    width: 150px;
+    background-color: #12AD2B;
+    color: white;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+}
+
+.chaining {
+    background-color: lightcoral;
+    width: 70%;
+    height: 60vh;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 7px;
+}
