@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+}
+
+.main-container {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 60px auto;
+    gap: 6px;
+}
+
+.content {
+    width: 50%;
+}
+
+.form {
+    width: 50%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#after, #empty, #getText, #getAttribute {
+    background-color: blue;
+    color: white;
+}
+
+#getHTML, #setText, #prepend {
+    background-color: yellow;
+    color: black;
+}
+
+#getValue, #setValue, #before {
+    background-color: red;
+    color: white;
+}
+
+#setHTML, #setAttribute, #append {
+    background-color: green;
+    color: white;
+}
+
+#addField {
+    background-color: yellow;
+    color: black;
+}
+
+#removeField {
+    background-color: red;
+    color: white;
+}
