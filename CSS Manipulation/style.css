@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+}
+
+.main-container {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 60px auto;
+    gap: 6px;
+}
+
+.content {
+    width: 50%;
+}
+
+.form {
+    width: 50%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#addClass {
+    background-color: blue;
+    color: white;
+}
+
+#removeClass {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+#toggleClass {
+    background-color: green;
+    color: white;
+}
+
+#fetchcss {
+    background-color: red;
+    color: white;
+}
+
+#addcss {
+    background-color: brown;
+    color: white;
+}
+
+
+
+.addclass {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+}
+
+.toggleclass {
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+.fetchclass {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+}
